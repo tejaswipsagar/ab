@@ -1,0 +1,563 @@
+/* This will apply to the body in this app */
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/* This below code is applied for the Navbar Component */
+.navbar{
+    padding-left: 167px;
+    padding-right: 167px;
+    align-items: center;
+    font-family: 'Mukta', sans-serif;
+    background-color: white;
+
+    
+}
+
+.navbar-nav{
+    position: relative;
+    top: 3px;
+    
+}
+
+.nav-item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-link{
+    color: grey;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.nav-button{
+    background-color: #F1F2F4;
+    border-radius: 7px;
+    
+}
+
+/* This below code is applied for the FirstSection Component */
+
+#first-section{
+    margin-left: 167px;
+    margin-right: 167px;
+}
+
+.container1{
+    display: grid;
+    place-items: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.container1 h1{
+    font-size: 49px;
+    font-weight: 600;
+    padding-bottom: 15px;
+
+}
+
+.container1 p{
+    font-size: 17px; 
+    color: grey;
+    text-align: center;
+    line-height: 12px;
+    width: 576px;
+    line-height: 25px;
+
+}
+.section1-button1{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+    width: 180.63px;
+    margin-right: 10px;
+    background-color: #0284FE;
+    color: white;
+    font-weight: 550;
+}
+
+
+.section1-button2{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+    width: 180.63px;
+    margin-left: 10px;  
+    border: 1px solid #D8D8D8;
+    font-weight: 550;
+}
+
+.button-div{
+    display: flex;
+    margin-top: 20px;
+}
+
+/* This below code is applied for the SecondSection Component */
+
+#second-section{
+    margin-left: 167px;
+    margin-right: 167px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.main-card1{
+    margin-right: 15px;
+}
+
+.card1{
+    width: 310px;
+    padding: 24px 24px 24px 24px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow:
+      -16px 0 16px -8px rgba(215, 215, 215, 0.5),
+      16px 0 16px -8px rgba(215, 215, 215, 0.5),
+      0 16px 16px -8px rgba(215, 215, 215, 0.5);
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
+.card1:hover {
+    transform: scale(1.05);
+  }
+
+.card1 img{
+    border-radius: 100%;
+    object-fit: cover;
+    width: 72px;  
+    
+}
+
+.section2-button1{
+    border-radius: 50px;
+    width: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    text-align: left;
+    background-color: #0284FE;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.a{
+    position: relative;
+    left: 37px;
+    bottom: 0.8px;
+}
+
+.section2-button2{
+    border-radius: 50px;
+    border-color: rgb(198, 197, 197);
+    width: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.section2-button2:hover{
+    border-color: black;
+}
+
+.card1-icon {
+    width: 28px;
+    object-fit: cover;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 100%;
+    margin-right: 21px;
+    box-shadow: 0px 5px 10px rgba(135, 133, 133, 0.3);
+      }
+     
+.card1-icon-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.download-icon{
+    margin-right: 0;
+}
+
+.card2{
+    width: 310px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow:
+      -16px 0 16px -8px rgba(215, 215, 215, 0.5),
+      16px 0 16px -8px rgba(215, 215, 215, 0.5),
+      0 16px 16px -8px rgba(215, 215, 215, 0.5);
+    overflow: hidden;
+    transition: transform 0.5s ease;
+  }
+  
+.card2:hover {
+    transform: scale(1.05);
+}
+  
+    
+
+.card2-heart-icon{
+    width: 15px; 
+    position: relative; 
+    top: -4px; 
+    left: 120px; 
+    cursor: pointer;
+}
+
+.clicked-card2-heart-icon{
+    content: url("../src/pictures/heart\ \(1\).png");
+}
+
+.card2-sub{
+    display: flex;
+    padding: 16px;
+    flex: wrap;
+    align-items: center;
+}
+
+.scenary-pic{
+    width: 310px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.card3{
+    width: 310px;
+    margin-left: 15px;
+    padding: 32px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow:
+      -16px 0 16px -8px rgba(215, 215, 215, 0.5),
+      16px 0 16px -8px rgba(215, 215, 215, 0.5),
+      0 16px 16px -8px rgba(215, 215, 215, 0.5);
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+  
+.card3:hover {
+    transform: scale(1.05);
+}
+
+
+.input1{
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+    width: 246px;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    border: 0.5px solid rgb(118, 118, 118);
+    
+}
+
+.input2{
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    width: 246px;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    border: 0.5px solid rgb(118, 118, 118);
+}
+
+input:focus{
+    outline-color: #0284FE;
+}
+
+
+.card3-button{
+
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-bottom: 8.5px;
+    width: 246px;
+    color: #0284FE;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #EEF7FF;
+
+}
+
+/* This below code is applied for the ThirdSection Component */
+
+#third-section{
+    margin-left: 167px;
+    margin-right: 167px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.s3-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.s3-p1{
+    font-size: 12px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 7px;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.s3-p2{
+    color: grey;
+    width: 480px;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.s3-cards{
+    width: 276px;
+    height: 265px;
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-right: 1px;
+    padding: 32px;
+    cursor: pointer;
+    box-shadow:
+    -16px 0 16px -8px rgba(215, 215, 215, 0.5),
+    16px 0 16px -8px rgba(215, 215, 215, 0.5),
+    0 16px 16px -8px rgba(215, 215, 215, 0.5);
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
+.s3-cards:hover {
+    transform: scale(1.05);
+  }
+
+.s3-h1{
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* This below code is applied for the FourthSection Component */
+
+#fourth-section{
+    margin-left: 167px;
+    margin-right: 167px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container5{
+    display: flex;
+    place-items: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.s4-row1{
+    align-items: center;
+    justify-content: center;
+}
+
+.s4-row2{
+    margin-bottom: 30px;
+}
+
+.circle1{
+    width: 348px;
+    height: 348px;
+    border: 2px solid rgb(233, 230, 230);
+    border-radius: 100%;
+}
+
+.circle2{
+    width: 284px;
+    height: 284px;
+   
+    border: 2px solid rgb(208, 205, 205);
+    border-radius: 100%;
+    position: relative;
+    left: 30px;
+    top: 29px;
+}
+
+.circle3{
+    width: 220px;
+    height: 220px;
+    border: 2px solid rgb(183, 181, 181);
+    border-radius: 100%;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+.circle4{
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 100%;
+    position: relative;
+    left: 29px;
+    top: 28px
+
+
+}
+
+.s4-reacticon{
+    width: 64px;
+    height: 57px;
+    position: relative;
+    top: 48px;
+}
+
+.s4-p1{
+    font-size: 25px;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 50px;
+    bottom: 33px;
+}
+
+.s4-p2{
+    font-size: 25px;
+    color: white;
+    background-color: #F7AF22;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 100%;
+    cursor: pointer;
+    position: relative;
+    bottom: 287px;
+    left: 33px
+
+}
+
+.s4-button{
+    width: 96px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #0284FE;
+    border-radius: 8px;
+    font-weight: 500;
+    position: relative;
+    left: 250px;
+    bottom: 180px;
+
+}
+
+.enableButton{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    bottom: 253px;
+    left: 225px;
+}
+
+/*Disable text selection for a specific element*/
+.s4-col1{
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard syntax */   
+}
+
+
+
+/* This below code is applied for the FifthSection Component */
+
+#fifth-section{
+    margin-left: 167px;
+    margin-right: 167px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container6{
+    display: grid;
+    place-items: center;
+    align-items: center;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    padding-left: 64px;
+    padding-right: 64px;
+    border-radius: 56px;
+    background-color: #F7F8F9;
+}
+
+.s5-button{
+    width: 192px;
+    height: 48px;
+    border-radius: 50px;
+    padding: 0 24px 0 24px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 15px 0 0 0;
+}
+
+.container7{
+    display: grid;
+    place-items: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.container7 p {
+    font-size: 14px;
+    font-weight: 400;
+}
